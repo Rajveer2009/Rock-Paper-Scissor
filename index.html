@@ -665,6 +665,7 @@
 
                         this.thumbsUpTimeout = setTimeout(() => {
                             onThumbsUp();
+                            this.thumbsUpDetected = false;
                         }, 500);
                     }
                 }
